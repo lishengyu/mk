@@ -1,0 +1,15 @@
+************************************************
+2021年 04月 25日 星期日 16:12:18 CST
+初始化仓库，提交初始版本makefile文件
+
+本地仓库关联远程仓库步骤：
+1. 新建远程仓库mk
+2. 本地目录下执行: git init
+3. 本地添加文件并提交: git add ./ git commit
+4. 将本地仓库和远程仓库关联：
+    git remote add origin https://github.com/lishengyu/mk
+5. 将本地项目push到远程：
+    git push origin master
+6. 验证是否链接成功：
+    git pull
+************************************************
