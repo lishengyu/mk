@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T03:19:12.645Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="hskGktF7JS0SNeAWkOfh" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T09:36:39.879Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="YDvNMoiiLc81ZgANc1Un" version="15.3.7" type="github">
   <diagram id="u3J0nEyR9mmcrC3utVfK" name="Page-1">
-    <mxGraphModel dx="2496" dy="6612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2496" dy="6539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,13 +33,8 @@
         <mxCell id="wi47tMksFWpCLcdsidNM-8" value="job_merge_into_installed" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="760" y="320" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wi47tMksFWpCLcdsidNM-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="-270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-10" value="transaction_apply" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-300" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J5rxAUDVZvESirjsQdw8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wi47tMksFWpCLcdsidNM-12" target="wi47tMksFWpCLcdsidNM-14">
           <mxGeometry relative="1" as="geometry" />
@@ -63,57 +58,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-18" value="transaction_find_jobs_that_matter_to_anchor" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-24" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-20" target="wi47tMksFWpCLcdsidNM-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-20" value="transaction_minimize_impact" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-1280" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-26" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-23" target="wi47tMksFWpCLcdsidNM-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-23" value="transaction_drop_redundant" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-1140" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-28" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-25" target="wi47tMksFWpCLcdsidNM-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-25" value="transaction_collect_garbage" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-1095" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-30" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-27" target="wi47tMksFWpCLcdsidNM-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-27" value="transaction_verify_order" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-860" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-29" target="wi47tMksFWpCLcdsidNM-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-29" value="transaction_merge_jobs" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-720" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-31" target="wi47tMksFWpCLcdsidNM-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-31" value="transaction_collect_garbage" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-580" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wi47tMksFWpCLcdsidNM-36" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-33" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="-370" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wi47tMksFWpCLcdsidNM-33" target="wi47tMksFWpCLcdsidNM-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-33" value="transaction_drop_redundant" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-470" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="-600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-38" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="wi47tMksFWpCLcdsidNM-37" target="wi47tMksFWpCLcdsidNM-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-37" value="transaction_is_destructive" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-370" width="120" height="40" as="geometry" />
+          <mxGeometry x="190" y="-495" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wi47tMksFWpCLcdsidNM-43" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -130,8 +123,8 @@
         <mxCell id="wi47tMksFWpCLcdsidNM-44" value="manager_add_job" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" parent="1" vertex="1">
           <mxGeometry y="-2190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J5rxAUDVZvESirjsQdw8-3" value="result=%s" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="117.5" width="70" height="20" as="geometry" />
+        <mxCell id="J5rxAUDVZvESirjsQdw8-3" value="result=cancel" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="117.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5rxAUDVZvESirjsQdw8-4" value="Install new job xxx" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="-10" width="110" height="20" as="geometry" />
@@ -400,6 +393,48 @@
             <mxPoint x="-1230" y="-4910" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-1270" y="-4970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-88" value="激活事务" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-1545" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-89" value="第一步:弄清楚哪些工作是重要的" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-1435" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-90" value="第二步：如非必要，不要stop服务" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-1315" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-91" value="第三步：放弃冗余的工作" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-1195" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-92" value="第四步：移除后台不必要的工作" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-1080" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-93" value="第五步：确认顺序是否合理" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-955" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-94" value="第六步：合并可以合并的项，尽可能删除不可合并的项" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-835" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-95" value="第七步：获取删除条目的依赖项" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-705" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-96" value="第八步：删除合并过程中产生的多余工作" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-585" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-97" value="第九步：应用前的检查工作" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-490" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-100" value="第十步：应用事务" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-380" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J5rxAUDVZvESirjsQdw8-102" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wi47tMksFWpCLcdsidNM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-300" as="sourcePoint" />
+            <mxPoint x="500" y="-300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="-365" />
             </Array>
           </mxGeometry>
         </mxCell>
