@@ -1,1 +1,193 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T01:05:20.027Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="15.7.3" etag="mGpunh7n3v-7Dy-mkwZH" type="github"><diagram id="JnOCqNgoD06z2W-314Qu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-12T01:32:47.192Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ErdrRROydcFu1x5d58HS" version="15.7.3" type="github">
+  <diagram id="JnOCqNgoD06z2W-314Qu" name="Page-1">
+    <mxGraphModel dx="1382" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PuDGCfVH8ni70b-ypavs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-1" target="PuDGCfVH8ni70b-ypavs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-1" value="点击连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-2" target="PuDGCfVH8ni70b-ypavs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-2" value="&lt;font face=&quot;times new roman&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;pair_device&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-4" target="PuDGCfVH8ni70b-ypavs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-4" value="btd_device_set_temporary" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-6" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;adapter_bonding_attempt&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-8" value="设置temporary==false，防止设备被老化" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="415" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-9" value="等待连接过程" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="515" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-10" target="PuDGCfVH8ni70b-ypavs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-10" value="拔掉适配器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-11" target="PuDGCfVH8ni70b-ypavs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-11" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;pair_device_complete&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-13" target="PuDGCfVH8ni70b-ypavs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-13" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_bonding_complete&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="800" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-15" value="status != 0，进入清除逻辑" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="815" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-16" target="PuDGCfVH8ni70b-ypavs-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-16" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_cancel_authentication&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;btd_device_set_temporary(device, true)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_bonding_failed&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="910" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-18" value="清除逻辑，参数为true，未进行保存配置的清除" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-19" target="PuDGCfVH8ni70b-ypavs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-19" value="触发回调函数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-21" target="PuDGCfVH8ni70b-ypavs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-21" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;adapter_stop&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-23" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_remove&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-25" value="此处由于无connections信息，未对连接做remove处理" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1124" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-26" value="删除device信息，不包括保存的配置" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1225" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-28" target="PuDGCfVH8ni70b-ypavs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-28" value="点击连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-30" target="PuDGCfVH8ni70b-ypavs-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-30" value="&lt;font face=&quot;times new roman&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;pair_device&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-32" target="PuDGCfVH8ni70b-ypavs-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-32" value="btd_device_set_temporary" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-33" target="PuDGCfVH8ni70b-ypavs-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-33" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;adapter_bonding_attempt&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-34" value="设置temporary==false，防止设备被老化" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="415" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-35" value="等待连接过程" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="515" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-36" target="PuDGCfVH8ni70b-ypavs-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-36" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;connected_callback&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-38" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;adapter_add_connection&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-40" value="触发回调" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-41" value="添加connection" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="715" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-43" target="PuDGCfVH8ni70b-ypavs-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-43" value="拔掉适配器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="887" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-45" target="PuDGCfVH8ni70b-ypavs-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-45" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;pair_device_complete&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="877" y="940" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-47" target="PuDGCfVH8ni70b-ypavs-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-47" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_bonding_complete&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="867" y="1040" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-48" value="status != 0，进入清除逻辑" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1055" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-50" target="PuDGCfVH8ni70b-ypavs-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-50" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_cancel_authentication&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;btd_device_set_temporary(device, true)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;device_bonding_failed&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1150" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-51" value="清除逻辑，参数为true，未进行保存配置的清除" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1165" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-53" target="PuDGCfVH8ni70b-ypavs-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-53" value="触发回调函数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="887" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-55" target="PuDGCfVH8ni70b-ypavs-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-55" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;adapter_stop&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="887" y="1349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PuDGCfVH8ni70b-ypavs-56" target="PuDGCfVH8ni70b-ypavs-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-56" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;adapter_remove_connection&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="852" y="1450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-57" value="存在adapter-&amp;gt;connections连接信息，进行connection remove" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1364" width="343" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-58" value="进行connection清除操作" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1465" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-59" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px ; text-align: justify ; text-indent: 112px&quot;&gt;btd_adapter_remove_device&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="852" y="1550" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuDGCfVH8ni70b-ypavs-61" value="清除device信息，包括保存的配置" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1565" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
