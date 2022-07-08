@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T10:10:56.857Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jVeN-Iogsr4DSmRHSsEZ" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T03:43:30.224Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ni9TGEjh4CdWjAnoK6-H" version="20.0.3" type="github">
   <diagram id="6ds6HKLlzLT0bygum3i8" name="Page-1">
-    <mxGraphModel dx="1483" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,8 +123,11 @@
         <mxCell id="s3KqUgk0Iqwg7Ef2eFDI-50" value="&lt;div style=&quot;orphans: 4; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;PA_CORE_HOOK_SINK_INPUT_NEW&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="390" y="710" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3KqUgk0Iqwg7Ef2eFDI-52" value="&lt;div style=&quot;orphans: 4; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;PA_CORE_HOOK_SINK_INPUT_NEW&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="390" y="850" width="340" height="60" as="geometry" />
+        <mxCell id="s3KqUgk0Iqwg7Ef2eFDI-52" value="&lt;div style=&quot;orphans: 4; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;sink_input_new_hook_callback&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3KqUgk0Iqwg7Ef2eFDI-57" value="依据当前application类型&lt;br&gt;获取sink" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="780" y="815" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
